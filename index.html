@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jesse Ray McMillen — open-source systems, automation, and appropriate technology.">
+  <title>Jesse Ray McMillen</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #10151a;
+      --panel: #182129;
+      --text: #e8eef2;
+      --muted: #aab8c2;
+      --accent: #57d68d;
+      --line: #2b3945;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #1a2a32, var(--bg) 55%);
+      color: var(--text);
+    }
+    main {
+      width: min(760px, calc(100% - 32px));
+      padding: 42px 30px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: rgba(24, 33, 41, 0.92);
+      box-shadow: 0 18px 55px rgba(0, 0, 0, 0.32);
+    }
+    h1 { margin: 0; font-size: clamp(2rem, 7vw, 4rem); }
+    .tagline { color: var(--accent); font-weight: 650; }
+    p, li { line-height: 1.65; color: var(--muted); }
+    ul { padding-left: 1.2rem; }
+    a { color: var(--accent); }
+    footer {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--line);
+      font-size: .92rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="tagline">Open-source systems · Automation · Appropriate technology</p>
+    <h1>Jesse Ray McMillen</h1>
+
+    <p>
+      Independent technology builder exploring resilient computing,
+      knowledge systems, automation, distributed networks, and
+      energy-aware infrastructure.
+    </p>
+
+    <h2>Current focus</h2>
+    <ul>
+      <li>Python automation, indexing, search, and SQLite tooling</li>
+      <li>Local AI, embeddings, and retrieval systems</li>
+      <li>Distributed and decentralized computing concepts</li>
+      <li>Appropriate technology and practical systems design</li>
+    </ul>
+
+    <footer>
+      <a href="https://github.com/jesseray718">View my GitHub profile</a>
+    </footer>
+  </main>
+</body>
+</html>
